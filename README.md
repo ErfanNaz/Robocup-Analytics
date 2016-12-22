@@ -18,6 +18,20 @@ Clone this repository and run maven install
 
 Feel free to work on this Project
 
+### UML
+
+**packages**
+
+![alt tag](misc/uml/Module.png)
+
+**class diagramm entitys**
+
+![alt tag](misc/uml/entitys.png)
+
+**plugin interface**
+
+![alt tag](misc/uml/pluginInterface.png)
+
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
