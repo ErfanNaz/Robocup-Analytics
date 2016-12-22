@@ -8,6 +8,8 @@ Simple Java Tool to replay and analyse Rocbocup 2D Games from Log-files
 
 You can Download the packed zip in misc and run the jar file or clone the repository and build the jar by your self
 
+Here you can find the [Log-files](http://chaosscripting.net/files/backup_socsim_robocup_org/2D/log/)
+
 ### Installing
 
 Clone this repository and run maven install
