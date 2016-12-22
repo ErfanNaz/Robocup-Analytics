@@ -30,7 +30,7 @@ Feel free to work on this Project
 
 **plugin interface**
 
-![alt tag](misc/uml/pluginInterface.png)
+<img src="misc/uml/pluginInterface.png" width="250">
 
 ## Built With
 
