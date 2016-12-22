@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane styleClass="footballfield" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zentoo.robocupanalytics.uicontroller.Monitor">
+    <children>
+      <Circle fx:id="ui_ball" centerX="300.0" centerY="225.0" radius="10.0" styleClass="ball" />
+      <Circle fx:id="ui_player_L_prototype" visible="false" centerX="300.0" centerY="225.0" radius="10.0" styleClass="playerRed"></Circle>
+      <Circle fx:id="ui_player_R_prototype" visible="false" centerX="300.0" centerY="225.0" radius="10.0" styleClass="playerBlue"></Circle>
+    </children>
+</AnchorPane>

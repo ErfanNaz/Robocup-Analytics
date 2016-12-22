@@ -1,0 +1,35 @@
+.split-pane *.split-pane-divider {
+    -fx-padding: 0 1 0 1;
+    -fx-border-color:  transparent;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/*
+    MONITOR BEGIN
+*/
+.footballfield{
+    -fx-background-image: url("../images/feld.jpg");
+    -fx-background-size: stretch;
+    -fx-min-height: 450;
+    -fx-max-height: 450;
+    -fx-min-width: 600;
+    -fx-max-width: 600;
+}
+
+.playerRed{
+    -fx-fill: linear-gradient(to right, #cd0e0e 45%, #f8a8a8 50%, #f8a8a8 100%);
+}
+
+.playerBlue{
+    -fx-fill: linear-gradient(to right , #2f01cd 45%, #6bd0f8 50%, #6bd0f8 100%);
+}
+
+.ball{
+    -fx-fill: #eee;
+    -fx-scale-x: 0.5;
+    -fx-scale-y: 0.5;
+}
+/*
+    MONITOR END
+*/

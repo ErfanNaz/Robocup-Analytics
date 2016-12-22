@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zentoo.robocupanalytics.uicontroller.MonitorControl">
+   <children>
+      <HBox spacing="10.0">
+         <children>
+            <Button fx:id="button_backback" mnemonicParsing="false" text="◀◀︎" onAction="#fast_back">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_back" mnemonicParsing="false" text="◀" onAction="#step_backward">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_play_stop" mnemonicParsing="false" text="▶" style="-fx-text-fill: darkblue" onAction="#stop_click">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_forward" mnemonicParsing="false" text="▶︎" onAction="#step_forward">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_forwardforward" mnemonicParsing="false" text="▶︎▶︎" onAction="#fast_forward">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label text="Time:">
+               <padding>
+                  <Insets left="20.0" top="8.0" />
+               </padding>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField_time" prefHeight="26.0" prefWidth="59.0" onKeyPressed="#jumpTo">
+               <HBox.margin>
+                  <Insets top="8.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>

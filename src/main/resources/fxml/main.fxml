@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.zentoo.robocupanalytics.uicontroller.Main">
+   <children>
+      <MenuBar minWidth="-Infinity" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#action_close" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#action_loadFile" text="Load" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <SplitPane fx:id="mainPane" dividerPositions="0.5" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <items>
+            <SplitPane fx:id="playgroundPane" dividerPositions="0.5" orientation="VERTICAL" SplitPane.resizableWithParent="false">
+              <items>
+                <AnchorPane SplitPane.resizableWithParent="false" />
+                <AnchorPane SplitPane.resizableWithParent="false" />
+              </items>
+            </SplitPane>
+            <AnchorPane prefWidth="600.0" SplitPane.resizableWithParent="false" />
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
