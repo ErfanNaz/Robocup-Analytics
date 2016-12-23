@@ -34,6 +34,8 @@ Feel free to work on this Project
 
 <img src="misc/uml/pluginInterface.png" width="250">
 
+example plugin on [Robocup Analytics SQL Plugin](https://github.com/illiano/Robocup-Analytics-SQL)
+
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
