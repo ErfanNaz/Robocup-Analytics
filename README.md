@@ -1,6 +1,8 @@
 # Robocup Analytics
 
-Simple Java Tool to replay and analyse Rocbocup 2D Games from Log-files
+Simple Java Tool to replay and analyse Rocbocup 2D Games from Log-files.
+
+The Plugin-System allows you, to simply create Plugins with access to the data from Log-file as Entity. 
 
 ![alt tag](RobocupAnalytics.png)
 
